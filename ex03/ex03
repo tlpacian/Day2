@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void    ft_is_negative(void)
+{
+	int     n;
+	
+	if (n < 0)
+	{
+		putchar('N');
+	}
+	
+	else
+	{
+		putchar('P');
+	}
+}
+
+int main(void)
+{
+    ft_is_negative();
+    return 0;
+}
+
